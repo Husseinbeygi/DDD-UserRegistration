@@ -1,6 +1,6 @@
 ﻿namespace Domain.SeedWorks
 {
-	internal abstract class AggregateRoot : Entity, IAggregateRoot
+	public abstract class AggregateRoot : Entity, IAggregateRoot
 	{
 	}
 }

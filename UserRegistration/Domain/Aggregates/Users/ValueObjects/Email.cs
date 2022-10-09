@@ -55,11 +55,11 @@ public class Email : SeedWorks.ValueObject
 
 	}
 
-	public Email()
+	private Email()
 	{
 	}
 
-	public Email(string value)
+	private Email(string value)
 	{
 		Value = value;
 	}
